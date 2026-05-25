@@ -10,7 +10,7 @@ if ( ! is_active_sidebar( 'front-right-page-sidebar' ) ) {
 }
 
 if ( is_active_sidebar( 'front-left-page-sidebar' ) ) { ?>
-	<aside class="col-md-3">
+	<aside class="col-md-3 sidebar-sticky">
 	<div id="sidebar-right" class="mg-sidebar">
 		<?php dynamic_sidebar( 'front-right-page-sidebar' );
 		 ?>
@@ -20,7 +20,7 @@ if ( is_active_sidebar( 'front-left-page-sidebar' ) ) { ?>
 
 <?php } else { ?>
 
-<aside class="col-md-4">
+<aside class="col-md-4 sidebar-sticky">
 	<div id="sidebar-right" class="mg-sidebar">
 		<?php dynamic_sidebar( 'front-right-page-sidebar' );
 		 ?>

@@ -1,10 +1,11 @@
 ﻿=== Newspaperex===
 Contributors: Themeansar
 Tags: blog, portfolio, news, grid-Layout, one-column, two-columns, three-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready, block-styles, wide-blocks
-Requires at least: 5.4
-Requires PHP: 7.0
-Tested up to: 6.5
-Stable tag: 2.3
+Requires at least: 6.7
+Requires PHP: 7.4
+Tested up to: 6.8
+Stable tag: 2.4
+Version: 2.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -128,3 +129,6 @@ Newspaperex includes support for WooCommerce and Contact From 7.
 = 2.3 =
 * Added selective refresh to site identity.
 * Fixed Styling issue.
+
+= 2.4 =
+* Fixed Styling Issue.

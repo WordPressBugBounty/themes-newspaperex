@@ -46,6 +46,11 @@ require( get_stylesheet_directory() . '/frontpage-options.php' );
 		);
 		add_theme_support( 'custom-header', $args );
 
+		add_theme_support( 'title-tag' );
+
+		// Add default posts and comments RSS feed links to head.
+		add_theme_support( 'automatic-feed-links' );
+
 
 		// This theme uses wp_nav_menu() in one location.
 		register_nav_menus( array(
